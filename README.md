@@ -8,15 +8,19 @@ The images and design spec you need to complete the project are listed below.
 
 Images:
 
-Logo
-Bedford Bizarre
-Berry Blitz
-Donut
-Locations
-Background
-Myrtle Ave
-Spiced Rum
+1. Logo
+2. Bedford Bizarre
+3. Berry Blitz
+4. Donut
+5. Locations
+6. Background
+7. Myrtle Ave
+8. Spiced Rum
+
 Design Spec:
 
 Click here to access the design spec.
-Good luck!
+
+Good luck!<br>
+
+<img src="./Resources/Images/img-donut.jpg" alt="Donut" width="300px">
