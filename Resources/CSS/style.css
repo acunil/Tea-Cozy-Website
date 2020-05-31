@@ -1,0 +1,213 @@
+/* Universal Styles */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  color: seashell;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3 {
+  /* font-weight: 800; */
+}
+
+section {
+  /* Ensures navigation links allow for fixed header */
+  padding-top: 70px;
+  margin-top: -70px;
+  margin-bottom: 170px;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+  justify-content: space-between;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
+  border-radius: 0.2em;
+}
+
+nav ul li:hover {
+  background-color: rosybrown;
+}
+
+/* Adjust header for phone screen */
+@media only screen and (max-width: 570px) {
+  header img {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 1.1em;
+  }
+}
+
+/* Main */
+
+main {
+  padding: 70px 50px 0 50px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Mission */
+
+#mission {
+  height: 700px;
+  min-width: 300px;
+  background-image: url("/Resources/Images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+#mission-banner {
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 10px;
+}
+
+#mission-banner h4 {
+  padding-top: 20px;
+}
+
+/* Featured */
+
+#featured-banner {
+  padding-bottom: 40px;
+}
+
+#featured-banner h4 {
+  margin-top: 20px;
+}
+
+#products {
+  justify-content: center;
+  max-width: 1040px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.product {
+  max-width: 300px;
+  margin: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url(/Resources/Images/img-locations-background.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 0;
+}
+
+#locations h2 {
+  padding: 15px;
+}
+
+.locations-container {
+  position: relative;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  margin: 0 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.location h3 {
+  padding-top: 0.7em;
+}
+
+.location p {
+  line-height: 3em;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1150px) {
+  #locations {
+    overflow-y: scroll;
+  }
+}
+
+/* Footer */
+
+footer * {
+  /* border: 1px solid red; */
+}
+
+footer {
+  padding-bottom: 2em;
+}
+
+#contact-info {
+  height: 200px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+}
